@@ -1,8 +1,13 @@
 import React from "react";
-import "./Root.scss"
+import NavBar from "../components/NavBar/NavBar";
+import "./Root.scss";
 
 const Root = () => {
-  return <div></div>;
-}
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
+};
 
 export default Root;
