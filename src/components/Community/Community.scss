@@ -2,6 +2,8 @@
 
 .community {
   background-color: $mainCol;
+  margin-bottom: 137px;
+  position: relative;
 
   &__wrapper {
     padding-top: 64px;
@@ -16,13 +18,35 @@
     font-family: $secFont;
     font-size: 20px;
     margin: 0;
+    padding-bottom: 162px;
+  }
+
+  &__movie {
+    position: absolute;
+    bottom: -25%;
+    transform: translateY(-25%);
+    left: 0;
+    border-radius: 10px;
   }
 }
 
 @media (min-width: 768px) {
   .community {
+    margin-bottom: 363px;
     &__title {
       margin-bottom: 40px;
+    }
+
+    &__text {
+      padding-bottom: 447px;
+    }
+
+    &__movie {
+      position: absolute;
+      bottom: -50%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 10px;
     }
   }
 }
