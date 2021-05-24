@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+
+.header {
+  margin-bottom: 64px;
+  &__image {
+    margin-bottom: 42px;
+  }
+
+  &__content {
+    &__title {
+      font-size: 50px;
+      margin-bottom: 16px;
+    }
+
+    &__logo {
+      height: 30px;
+    }
+
+    &__text {
+      color: #40462f;
+      font-family: $secFont;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    &__button {
+      padding: 16px 80px;
+      border-radius: 8px;
+      border: none;
+      background-color: $mainCol;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    &__content {
+      margin-bottom: 238px;
+    }
+  }
+}
