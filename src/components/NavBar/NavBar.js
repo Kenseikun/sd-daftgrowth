@@ -10,11 +10,11 @@ const NavBar = () => {
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light">
         <a href="/">
-          <img src={Logo} alt="Logo sign" />
-          <img src={LogoText} alt="Company name" />
+          <img src={Logo} alt="Logo sign" className="navbar__logo" />
+          <img src={LogoText} alt="Company name" className="navbar__logo-text" />
         </a>
         <button
-          className="custom-toggler navbar-toggler"
+          className="custom-toggler navbar-toggler border-0"
           type="button"
           data-toggle="collapse"
           data-target="#navbarsExample09"
@@ -27,14 +27,23 @@ const NavBar = () => {
         </button>
 
         <div className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`} id="navbarsExample09">
+          <a className="nav-link text-info" href="/">
+            Home
+          </a>
+          <a className="nav-link text-info" href="/about">
+            About
+          </a>
+          <a className="nav-link text-info" href="/courses">
+            Courses
+          </a>
+          <a className="nav-link text-info" href="/news">
+            News
+          </a>
           <a className="nav-link text-info" href="/contact">
-            Support
+            Contact
           </a>
-          <a className="nav-link text-info" href="/login">
-            Login
-          </a>
-          <a href="/request-demo" className="btn btn-sm btn-info nav-link text-white">
-            Request demo
+          <a className="btn nav-link text-info" href="/login">
+            Log in
           </a>
         </div>
       </nav>
