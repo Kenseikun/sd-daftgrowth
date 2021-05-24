@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.profits {
+
+  &__title {
+    font-size: 50px;
+    margin-bottom: 36px;
+  }
+
+  &__text {
+    font-size: 20px;
+    font-family: $secFont;
+    margin-bottom: 36px;
+  }
+}
