@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.ranking {
+  &__value {
+    font-size: 80px;
+    color: $mainCol;
+  }
+  &__text {
+    font-family: $secFont;
+    font-size: 20px;
+  }
+}
