@@ -26,24 +26,24 @@ const NavBar = () => {
         </button>
 
         <div className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`} id="navbarsExample09">
-          <a className="nav-link text-info" href="/">
+          <a className="nav-link" href="/">
             Home
           </a>
-          <a className="nav-link text-info" href="/about">
+          <a className="nav-link" href="/about">
             About
           </a>
-          <a className="nav-link text-info" href="/courses">
+          <a className="nav-link" href="/courses">
             Courses
           </a>
-          <a className="nav-link text-info" href="/news">
+          <a className="nav-link" href="/news">
             News
           </a>
-          <a className="nav-link text-info" href="/contact">
+          <a className="nav-link" href="/contact">
             Contact
           </a>
-          <a className="btn nav-link text-info" href="/login">
+          <button className="btn nav-link" href="/login">
             Log in
-          </a>
+          </button>
         </div>
       </nav>
     </div>

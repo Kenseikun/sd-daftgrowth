@@ -5,10 +5,24 @@
   margin-bottom: 48px;
   margin-top: 35px;
   padding: 0;
+  color: black;
 
   &__logo-text {
     margin-left: 15px;
   }
-}
 
-// TODO: COLOR TEXT BLACK
+  .nav-link {
+    color: black;
+    font-family: $secFont;
+    font-size: 24px;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .btn {
+    background-color: $mainCol;
+    padding: 7px 30px;
+    border-radius: 8px;
+  }
+}
