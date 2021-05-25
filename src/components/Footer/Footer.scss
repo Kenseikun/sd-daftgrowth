@@ -49,11 +49,6 @@
       font-size: 18px;
     }
   }
-
-  &__terms {
-    border-top: 1px solid #7c8176;
-    padding-top: 16px;
-  }
 }
 
 @media (min-width: 768px) {
@@ -79,6 +74,13 @@
           align-items: center;
         }
       }
+    }
+
+    &__terms {
+      border-top: 1px solid #7c8176;
+      padding-top: 16px;
+      font-size: 10px;
+      font-family: $secFont;
     }
   }
 }
