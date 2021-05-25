@@ -1,5 +1,9 @@
 @import "../../styles/variables.scss";
 
+.rank {
+margin-bottom: 64px;
+}
+
 .ranking {
   &__value {
     font-size: 80px;
@@ -8,5 +12,11 @@
   &__text {
     font-family: $secFont;
     font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .rank {
+    margin-bottom: 220px;
   }
 }

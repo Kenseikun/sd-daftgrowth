@@ -20,6 +20,10 @@
       font-family: $secFont;
       width: 100%;
       margin-bottom: 16px;
+
+      &:focus {
+        border: 1px solid $mainCol;
+      }
     }
 
     button {
