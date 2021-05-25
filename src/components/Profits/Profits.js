@@ -20,7 +20,7 @@ const Profits = () => {
           <ul className="list-unstyled d-flex flex-column flex-md-row align-items-center justify-content-between">
             {profitsArray.map(({ image, title, text }) => {
               return (
-                <li>
+                <li key={title}>
                   <Profit image={image} title={title} text={text} />
                 </li>
               );

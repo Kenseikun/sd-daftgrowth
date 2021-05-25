@@ -2,4 +2,47 @@
 
 .footer {
   background-color: $darkCol;
+  color: #7c8176;
+
+  &__logo {
+    margin-top: 64px;
+    margin-bottom: 56px;
+  }
+
+  &__input__wrapper {
+    margin-bottom: 63px;
+
+    input {
+      padding: 16px 15px;
+      border: 1px solid #7C8176;
+      border-radius: 8px;
+      background-color: $darkCol;
+      font-family: $secFont;
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    button {
+      background-color: $mainCol;
+      border-radius: 8px;
+      padding: 16px;
+      width: 100%;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: $secFont;
+    font-size: 18px;
+  }
+
+  &__text div {
+     margin-bottom: 31px;
+  }
+
+  &__terms {
+    border-top: 1px solid #7C8176;
+    padding-top: 16px;
+  }
 }

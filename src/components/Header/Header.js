@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Logo } from "../../assets/images";
+import { Hero, LogoDot } from "../../assets/images";
 import "./Header.scss";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
           <h1 className="header__content__title">
             Check y
             <span>
-              <img src={Logo} alt="Company Logo" className="header__content__logo" />
+              <img src={LogoDot} alt="Company Logo" className="header__content__logo" />
             </span>
             ur well-being
           </h1>

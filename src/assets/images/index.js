@@ -1,6 +1,9 @@
 import Hero from "./hero.svg";
-import Logo from "./logo.svg";
+import Logo from "./logo.png";
+import LogoDot from "./logo-dot.svg";
 import LogoText from "./logo-text.svg";
-import LogoWhite from "./logo-white.svg";
+import LogoWhite from "./logo-white.png";
+import Play from "./play.svg";
+import Video from "./video_image.png";
 
-export { Hero, Logo, LogoText, LogoWhite };
+export { Hero, Logo, LogoDot, LogoText, LogoWhite, Play, Video };
