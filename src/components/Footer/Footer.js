@@ -12,7 +12,7 @@ const Footer = () => {
         </a>
 
         <div className="row d-flex flex-md-row-reverse">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 d-md-flex justify-content-end align-items-center">
             <div className="footer__input__wrapper">
               <p>Try Medi for free</p>
               <form action="submit">
@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 footer__text d-flex justify-content-between ">
+          <div className="footer__text col-12 col-md-6 d-flex flex-column flex-md-row justify-content-between ">
             <div className="d-flex flex-column">
               <p>Product</p>
               <a href="/">Updates</a>
